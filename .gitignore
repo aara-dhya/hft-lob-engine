@@ -1,0 +1,38 @@
+# Prerequisites
+*.d
+
+# Compiled Python modules
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+venv/
+env/
+.env
+
+# Jupyter Notebooks (useful for EDA later)
+.ipynb_checkpoints
+
+# C++ / Rust / Build files (for the matching engine later)
+target/
+build/
+*.out
+*.exe
+*.o
+*.so
+*.dll
+
+# Massive Market Data Files (CRITICAL - DO NOT COMMIT DATA)
+data/
+*.csv
+*.parquet
+*.h5
+*.db
+*.sqlite
+*.duckdb
+
+# IDE and OS specific
+.vscode/
+.idea/
+.DS_Store
